@@ -81,6 +81,16 @@ html, body {
 .text-teal {
   color: var(--bs-teal); }
 
+.site-nav li:hover {
+  border-bottom: 2px solid #000;
+}
+ 
+.site-nav li {
+  border-bottom: 2px solid transparent;
+  transition: all .3s;
+}
+
+
 footer a:not(.nav-link) {
   color: inherit;
   border-bottom: 1px dashed;
